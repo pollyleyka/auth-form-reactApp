@@ -6,6 +6,7 @@ import Component from './components/App.jsx';
 const app = () => {
   const container = document.getElementById('container');
   const root = createRoot(container);
+  console.log(root);
   root.render(<Component />);
 };
 
